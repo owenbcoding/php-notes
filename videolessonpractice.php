@@ -130,7 +130,7 @@
         echo $number . "<br>";
     }
     }
-    
+
     // ------------------------------------------------------------
     // 05 — ASSOCIATIVE ARRAYS
     // ------------------------------------------------------------
@@ -140,6 +140,16 @@
     //             Echo each key and value in a readable sentence,
     //             e.g. "Title: The Hobbit"
 
+    $book = [
+        'title' => 'The novice',
+        'author' => 'Taran Marathu',
+        'year' => 2015,
+        'pages' => 368,
+    ];
+
+    foreach ($book as $key => $value) { 
+        echo "<p>$key: $value</p>";
+    }
 
     // Problem 5b: Create an array of three associative arrays, each
     //             representing a person with name and age keys.
