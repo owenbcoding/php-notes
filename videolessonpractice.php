@@ -148,13 +148,22 @@
     ];
 
     foreach ($book as $key => $value) { 
-        echo "<p>$key: $value</p>";
+            echo ucfirst($key) . ": " . $value . "<br>";
     }
 
     // Problem 5b: Create an array of three associative arrays, each
     //             representing a person with name and age keys.
     //             Loop through and echo each person's name and age.
 
+    $people = [
+        ['name' => 'Maya', 'age' => 17],
+        ['name' => 'Luca', 'age' => 24],
+        ['name' => 'Nora', 'age' => 31],
+    ];
+
+    foreach ($people as $person) {
+        echo $person['name'] . ' is ' . $person['age'] . ' years old.<br>';
+    }
 
     // Problem 5c: Using the array from 5b, echo only the people
     //             who are 18 or older.
