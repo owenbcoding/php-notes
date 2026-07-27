@@ -113,16 +113,15 @@
     // Problem 4a: Create an array of 5 of your favourite movies.
     //             Echo each one on its own line using a foreach loop.
 
-    $movies = ['Avatar', 'Code8', 'The Martian', 'Jurassic park', ''];
+    $movies = ['Avatar', 'Code8', 'The Martian', 'Jurassic park', 'Hacker'];
 
     // Problem 4b: Using the same (or a new) array, echo only the
     //             first and last items by their index.
 
+    $movies = ['Avatar', 'Code8', 'The Martian', 'Jurassic park', 'Hacker']; echo "First: " . $movies[0] . "<br>"; echo "Last: " . $movies[count($movies) - 1];
 
     // Problem 4c: Create an array of numbers. Use a foreach loop
     //             to echo only the numbers that are greater than 10.
-
-
 
     // ------------------------------------------------------------
     // 05 — ASSOCIATIVE ARRAYS
