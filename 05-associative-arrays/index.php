@@ -14,8 +14,8 @@
         // Try it:
         $person = [
             'name' => 'Owen',
-            'age'  => 25,
-            'city' => 'Dublin',
+            'age'  => 30,
+            'city' => 'Cork',
         ];
 
         foreach ($person as $key => $value) {
