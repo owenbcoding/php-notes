@@ -123,6 +123,14 @@
     // Problem 4c: Create an array of numbers. Use a foreach loop
     //             to echo only the numbers that are greater than 10.
 
+    $numbers = [4, 11, 7, 25, 10, 13, 2];
+
+    foreach ($numbers as $number) {
+    if ($number > 10) {
+        echo $number . "<br>";
+    }
+    }
+    
     // ------------------------------------------------------------
     // 05 — ASSOCIATIVE ARRAYS
     // ------------------------------------------------------------
