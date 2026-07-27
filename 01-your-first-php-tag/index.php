@@ -7,7 +7,7 @@
 <body>
     <?php
         // Topic: Your First PHP Tag
-        // - PHP is embedded inside HTML using <? php ...
+        // - PHP is embedded inside HTML using < ? php ...
         // - echo outputs a value to the page
         // - Statements end with a semicolon ;
 
