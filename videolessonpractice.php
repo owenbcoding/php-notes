@@ -168,7 +168,11 @@
     // Problem 5c: Using the array from 5b, echo only the people
     //             who are 18 or older.
 
-
+    foreach ($people as $person) {
+    if ($person['age'] >= 18) {
+        echo $person['name'] . ' is ' . $person['age'] . ' years old.<br>';
+    }
+}
 
     // ------------------------------------------------------------
     // 06 — FUNCTIONS AND FILTERS
@@ -232,21 +236,21 @@
     //             the alternative foreach syntax.
     //             (The HTML section is at the bottom of this file.)
 
-?>
-<?php
-    // 08 — template data (do your logic here, before the HTML)
-    $pageTitle = "My Practice Page";     // fill this in
-    $username  = "Owen";                 // fill this in
-    $skills    = ["PHP", "HTML", "CSS"]; // fill this in
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    
-    <title><?= $pageTitle ?></title>
-</head>
-<body>
+    ?>
+        <?php
+            // 08 — template data (do your logic here, before the HTML)
+            $pageTitle = "My Practice Page";     // fill this in
+            $username  = "Owen";                 // fill this in
+            $skills    = ["PHP", "HTML", "CSS"]; // fill this in
+        ?>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            
+            <title><?= $pageTitle ?></title>
+        </head>
+        <body>
 
     <!-- Output from problems 01–07 will appear above this section -->
     <hr>
