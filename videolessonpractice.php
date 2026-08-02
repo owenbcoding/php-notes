@@ -169,10 +169,10 @@
     //             who are 18 or older.
 
     foreach ($people as $person) {
-    if ($person['age'] >= 18) {
-        echo $person['name'] . ' is ' . $person['age'] . ' years old.<br>';
+        if ($person['age'] >= 18) {
+            echo $person['name'] . ' is ' . $person['age'] . ' years old.<br>';
+        }
     }
-}
 
     // ------------------------------------------------------------
     // 06 — FUNCTIONS AND FILTERS
