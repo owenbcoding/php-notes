@@ -183,11 +183,14 @@
     //             the result.
     function add ($num1 = 5, $num2 = 3) {
         return $num1 + $num2;
-    } echo add()
+    } echo add();
 
     // Problem 6b: Write a function called greet() that takes a
     //             $name parameter and returns "Hello, {name}!".
     //             Call it with your own name and echo the result.
+    function greet($name) { 
+        return "Hello, {$name}!";
+    } echo greet('Owen');
 
 
     // Problem 6c: Create an array of words. Use array_filter() to
