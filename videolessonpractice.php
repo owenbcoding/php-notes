@@ -181,7 +181,9 @@
     // Problem 6a: Write a function called add() that takes two
     //             numbers and returns their sum. Call it and echo
     //             the result.
-
+    function add ($num1 = 5, $num2 = 3) {
+        return $num1 + $num2;
+    } echo add()
 
     // Problem 6b: Write a function called greet() that takes a
     //             $name parameter and returns "Hello, {name}!".
