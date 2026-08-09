@@ -210,7 +210,13 @@
     //             return a new array where every number is squared
     //             (multiplied by itself). Echo the results.
 
+    $numbers = [1, 2, 3, 4, 5];
 
+    $squaredNumbers = array_map(function ($number) {
+        return $number * $number;
+    }, $numbers);
+
+    echo implode(", ", $squaredNumbers);
 
     // ------------------------------------------------------------
     // 07 — LAMBDA FUNCTIONS
