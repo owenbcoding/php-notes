@@ -197,7 +197,15 @@
     //             return only the words that are longer than 4
     //             characters. Echo the results.
 
+    $words = ["cat", "elephant", "dog", "giraffe", "ox", "monkey"];
 
+    $longWords = array_filter($words, function ($word) {
+        return strlen($word) > 4;
+    });
+
+    echo implode(", ", $longWords);
+
+    
     // Problem 6d: Create an array of numbers. Use array_map() to
     //             return a new array where every number is squared
     //             (multiplied by itself). Echo the results.
