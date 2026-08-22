@@ -226,9 +226,17 @@
     //             $double that takes a number and returns it doubled.
     //             Call it and echo the result.
 
+    $double = function ($n) {
+        return $n * 2;
+    };
+
+    echo $double(7) . "<br>";
 
     // Problem 7b: Rewrite Problem 7a using an arrow function (fn =>).
 
+    $doubleArrow = fn($n) => $n * 2;
+
+    echo $doubleArrow(7) . "<br>";
 
     // Problem 7c: Create an array of names. Use array_map() with an
     //             arrow function to return a new array where every
