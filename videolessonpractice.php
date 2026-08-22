@@ -243,6 +243,11 @@
     //             name is uppercased. Echo the results.
     //             Hint: strtoupper($str)
 
+    $names = ['maya', 'luca', 'nora'];
+
+    $upperNames = array_map(fn($name) => strtoupper($name), $names);
+
+    echo implode(", ", $upperNames) . "<br>";
 
     // Problem 7d: Create a $prefix variable (e.g. "Hello"). Write
     //             an arrow function that prepends the prefix to a
@@ -250,7 +255,13 @@
     //             an array of names. Arrow functions capture outer
     //             variables automatically — no `use` needed.
 
+    $prefix = "Hello";
 
+    $greetName = fn($name) => "{$prefix}, {$name}!";
+
+    $greetings = array_map($greetName, $names);
+
+    echo implode("<br>", $greetings) . "<br>";
 
     // ------------------------------------------------------------
     // 08 — SEPARATE LOGIC FROM THE TEMPLATE
