@@ -318,7 +318,7 @@
     // Problem 9a: Create a $links array where each item is an
     //             associative array with keys: "name" and "url".
     //             Include at least Home, About, and Contact.
-
+    
 
     // Problem 9b: Loop through $links and output an <a> tag for
     //             each link using "url" for href and "name" as text.
