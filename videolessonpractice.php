@@ -315,14 +315,30 @@
     // 09 — PAGE LINKS
     // ------------------------------------------------------------
 
-    // Problem 9a: Create a $links array where each item is an
-    //             associative array with keys: "name" and "url".
-    //             Include at least Home, About, and Contact.
+    /* Problem 9a: Create a $links array where each item is an
+                 associative array with keys: "name" and "url".
+                 Include at least Home, About, and Contact. */
     
+    $links = [
+        [
+        "name" => "Home",
+        "url" => "/"
+        ],
+        [
+            "name" => "About",
+            "url" => "/about"
+        ],
+        [
+            "name" => "Contact",
+            "url" => "/contact"
+        ]
+    ];
+
+   
 
     // Problem 9b: Loop through $links and output an <a> tag for
     //             each link using "url" for href and "name" as text.
-
+    
 
     // Problem 9c: Add one more link item and confirm it appears
     //             without changing your rendering loop.
