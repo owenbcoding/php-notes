@@ -331,6 +331,10 @@
         [
             "name" => "Contact",
             "url" => "/contact"
+        ],
+        [
+            "name" => "Blog",
+            "url" => "/blog"
         ]
     ];
 
@@ -339,6 +343,12 @@
     // Problem 9b: Loop through $links and output an <a> tag for
     //             each link using "url" for href and "name" as text.
     
+    foreach ($links as $link) {
+        echo '<a href="' . htmlspecialchars($link['url'], ENT_QUOTES, 'UTF-8') . '">'
+            . htmlspecialchars($link['name'], ENT_QUOTES, 'UTF-8')
+            . '</a><br>';
+    }
+
 
     // Problem 9c: Add one more link item and confirm it appears
     //             without changing your rendering loop.
@@ -350,6 +360,8 @@
 
     // Problem 10a: Create a partial file for a navigation section
     //              and include it in a page with require.
+
+    
 
 
     // Problem 10b: Create a second partial for a footer and include
