@@ -363,6 +363,7 @@ foreach ($links as $link) {
 // Problem 9c: Add one more link item and confirm it appears
 //             without changing your rendering loop.
 
+/* The 9c comment itself can remain blank because the new Blog link has already been added to the array above. The important result is one array, one rendering loop, and four displayed links. */
 
 // ------------------------------------------------------------
 // 10 — PHP PARTIALS
