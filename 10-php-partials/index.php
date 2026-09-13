@@ -7,10 +7,10 @@
 <body>
     <?php
         // Topic: PHP Partials
-        // In a full app, this nav would be extracted to a partial file and required here.
+        require __DIR__ . '/../views/partials/nav.php';
     ?>
 
     <h1>10 - PHP Partials</h1>
-    <!-- Practice here -->
+    <p>The navigation above is loaded from <code>views/partials/nav.php</code>.</p>
 </body>
 </html>
