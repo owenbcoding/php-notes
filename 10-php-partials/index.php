@@ -12,5 +12,7 @@
 
     <h1>10 - PHP Partials</h1>
     <p>The navigation above is loaded from <code>views/partials/nav.php</code>.</p>
+
+    <?php require __DIR__ . '/../views/partials/footer.php'; ?>
 </body>
 </html>
