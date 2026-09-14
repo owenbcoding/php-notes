@@ -372,11 +372,13 @@ foreach ($links as $link) {
 // Problem 10a: Create a partial file for a navigation section
 //              and include it in a page with require.
 
-require __DIR__ . '/../views/partials/nav.php';
+require __DIR__ . '/views/partials/nav.php';
 
 
 // Problem 10b: Create a second partial for a footer and include
 //              it below the main content.
+
+require __DIR__ . '/views/partials/footer.php';
 
 
 // Problem 10c: Pass shared variables (like a title) so both
