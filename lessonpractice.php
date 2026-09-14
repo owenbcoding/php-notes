@@ -384,7 +384,6 @@ require __DIR__ . '/views/partials/footer.php';
 // Problem 10c: Pass shared variables (like a title) so both
 //              partials can use the same data.
 
-/* The 9c comment itself can remain blank because the new Blog link has already been added to the array above. The important result is one array, one rendering loop, and four displayed links */
 
 // ------------------------------------------------------------
 // 11 — SUPERGLOBALS AND CURRENT PAGE STYLING
